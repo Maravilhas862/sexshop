@@ -1,0 +1,480 @@
+
+
+
+header {
+    display:flex;
+    display:absolute;
+    background-color:#E8A2D9;
+    align-items: center;
+    padding-left: 20px;
+  
+ 
+}
+
+.logoinicio {
+    width: 250px;
+    height:110px;
+    
+}
+
+h1 {
+    margin-top: 15%;
+    font-family: 'modelo';
+    font-style: bold;
+    letter-spacing: 20px;
+    font-size:40px;
+    
+}
+
+header h1 {
+    color:aliceblue;
+    display:inline-block;
+    margin-left: 20px;
+    
+}
+
+header h2 {
+    color:blueviolet;
+    display:inline-block;
+    margin-left: 20px;
+}
+
+header img {
+    display:inline-block;
+    align-self: center;
+}
+
+.hidden {
+    display: none;
+}
+.sociallink {
+    position: fixed; /* Fixar o elemento na tela */
+    bottom: 20px; /* Espaço do fundo da tela */
+    right: 20px; /* Espaço da lateral direita da tela */
+    display: flex; /* Alinha os links horizontalmente */
+    gap: 10px; /* Espaço entre os ícones */
+}
+
+.sociallink a {
+    display: block; /* Faz com que o link ocupe o espaço do seu conteúdo */
+}
+
+.sociallink img {
+    width: 40px; /* Ajusta a largura dos ícones */
+    height: 40px; /* Ajusta a altura dos ícones */
+    border-radius: 50%; /* Adiciona bordas arredondadas aos ícones */
+    transition: opacity 0.3s; /* Adiciona uma transição suave para efeitos de hover */
+}
+
+.sociallink img:hover {
+    opacity: 0.7; /* Reduz a opacidade dos ícones ao passar o mouse sobre eles */
+}
+
+
+.nav1 {
+    background-color: #32004a;
+    border-radius: 10px;
+    height: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+button {
+    border-radius: 10px;
+    border-color: #ff2400;
+    display:flex;
+    margin-top: 0px;
+    color: #4b0081;
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: rgba(230, 201, 230, 0.2); /* Cor com 20% de opacidade */
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    top: 16%;
+    left: 8px;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left; 
+    font-family: 'erotique', sans-serif;
+    font-weight: bold;
+}
+
+.menu li img {
+    margin-right: 10px;
+    flex-shrink: 0; 
+}
+
+.menu a {
+    text-decoration: none;
+    color:red;
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000;
+    
+}
+
+.togglemenu {
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.togglemenu:hover menu {
+    display:block;
+}
+
+h3 {
+    font-size: xx-large;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'long';
+    font-size: 50px;
+}
+
+.bolainicial {
+    width: 300px; /* Ajuste para o tamanho desejado */
+    height: 300px; /* Mantém a proporção */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Para garantir que a imagem preencha o espaço */
+  }
+
+main {
+    display:inline-flex;
+
+}
+aside {
+    background-color: #0088cc;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flexbox;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+h4 {
+    display:inline-flex;
+    color:azure;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'fft';
+   
+}
+
+.variada {
+    width:300px;
+    height:auto;
+    margin: 30px;
+}
+
+.textnav {
+    margin-left: 100px;
+}
+
+.iconmenu {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iconsex {
+    width:auto;
+    height: 30px;
+}
+
+.sessaoimage {
+    display:block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.figure-container {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+.sessaoimage {
+    display:flex;
+    width: 200px; 
+    height: auto;
+    margin-right: 30px;
+}
+
+figcaption {
+    margin-top: 10px;  
+    font-style: italic;
+    font:bold;
+    text-align: left;
+}
+
+.Videos {
+    display: flex; /* Faz com que os vídeos fiquem lado a lado */
+    gap: 10px; /* Espaço entre os vídeos, ajuste conforme necessário */
+    justify-content: left; /* Centraliza os vídeos horizontalmente */
+    flex-wrap: wrap; /* Permite que os vídeos se movam para a linha seguinte se não caberem na mesma linha */
+    margin-top:5%;
+}
+
+video {
+    width: auto; /* Ajusta a largura do vídeo */
+    height: 350px; /* Ajusta a altura do vídeo */
+    object-fit: cover; /* Faz com que o vídeo cubra o contêiner mantendo a proporção */
+}
+
+.Videoprincipal {
+    display: flex;
+    justify-content: space-between; /* Alinha o texto e o vídeo nos extremos do contêiner */
+    align-items: center; /* Alinha verticalmente ao centro */
+    height: 400px; /* Ajuste a altura conforme necessário */
+    gap: 50px; /* Espaço entre o texto e o vídeo */
+    padding: 20px; /* Espaço interno ao redor do conteúdo */
+}
+
+.text-content {
+    flex: 1; /* Faz o contêiner de texto ocupar o máximo de espaço disponível */
+    margin-right: 20px; /* Espaço entre o texto e o vídeo */
+}
+
+.video-container {
+    flex: 1; /* Faz o contêiner de vídeo ocupar o máximo de espaço disponível */
+}
+
+.video-resize {
+    width: auto; /* Ajusta a largura do vídeo */
+    max-width: 800px; /* Define uma largura máxima para o vídeo */
+    height: 400px; /* Mantém a proporção original do vídeo */
+    cursor: pointer; /* Mostra um cursor de ponteiro ao passar sobre o vídeo */
+    border-radius: 20px; /* Arredonda as bordas do vídeo */
+    border-style: dashed; /* Define o estilo da borda */
+}
+
+.Videoprincipal2 {
+    display: flex;
+    justify-content: flex-end; /* Alinha o vídeo ao extremo direito do contêiner */
+    padding: 20px; /* Espaço interno ao redor do vídeo */
+}
+
+.text-content2 {
+    flex: 1; /* Faz o contêiner de texto ocupar o máximo de espaço disponível */
+    margin-right: 20px; /* Espaço entre o texto e o vídeo */
+}
+
+.video-container2 {
+    flex: 1; /* Faz o contêiner de vídeo ocupar o máximo de espaço disponível */
+}
+
+
+@font-face {
+    font-family: 'erotique';
+    src: url('fonts/ErotiqueAlternateTrial-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'element';
+    src: url('fonts/Elementary_Gothic_Bookhand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'fft';
+    src: url('fonts/press_jobs.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+    font-family: 'long';
+    src: url('fonts/LongaIberica-DEMO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'modelo';
+    src: url('fonts/modelos.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+span {
+    color:white;
+    margin-left: 20%;
+    font-family: 'erotique', sans-serif;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+html, body {
+    height: 100%; /* Certifique-se de que o body ocupa a altura total da página */
+    margin: 0;    /* Remova margens padrão do body */
+}
+
+.carousel {
+    flex: 0 0 800px; /* Largura fixa do carrossel */
+    height: 500px;   /* Altura fixa do carrossel */
+    overflow: hidden; /* Esconde qualquer parte que ultrapasse o limite do carrossel */
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    animation: slide 18s infinite;
+}
+
+.carousel-item {
+    min-width: 100%; /* Cada item ocupa 100% da largura do carrossel */
+    height: 120%;    /* Altura do item igual à do carrossel */
+    display: flex;   /* Permite centrar a imagem */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+.carousel-item img {
+    max-width: 80%; /* Limita a largura máxima à do item */
+    max-height: 100%; /* Limita a altura máxima à do item */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços indesejados */
+}
+
+
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%; /* Altura do item */
+    object-fit: fill; /* Preenche o espaço */
+    transition: transform 2s ease; /* Transição suave */
+}
+
+
+
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }   /* Pausa no primeiro slide */
+    25% { transform: translateX(-100%); } /* Transição para o segundo slide */
+    45% { transform: translateX(-100%); } /* Pausa no segundo slide */
+    50% { transform: translateX(-200%); } /* Transição para o terceiro slide */
+    70% { transform: translateX(-200%); } /* Pausa no terceiro slide */
+    75% { transform: translateX(-300%); } /* Transição para a duplicata do primeiro slide */
+    95% { transform: translateX(-300%); } /* Pausa na duplicata do primeiro slide */
+    100% { transform: translateX(-300%); } /* Transição direta para o primeiro slide */
+}
+
+/* configuração das páginas */
+
+
+.lingap {
+    display: flex;
+    margin-left: 40%;
+    width: 800px;
+    height: 300px;
+
+}
+
+.quadro1 {
+    display: flex;
+}
+
+.quadro1 img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-top: 2%;
+    margin-right: 10px;
+}
+
+.quadro1 img:last-child {
+    margin-right: 0;
+}
+.quadro2 {
+    display: flex;
+}
+
+.quadro2 img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-top: 5%;
+    margin-right: 20px;
+}
+
+.quadro2 img:last-child {
+    margin-right: 0;
+}
+
+
+
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fadeIn.show {
+    opacity: 1;
+}
+
+.zoom-effect {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+    margin-top: 2%;
+}
+
+.zoom-effect img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+    z-index: 1;
+}
+
+.centraldp {
+    width: 600px; /* Ajuste conforme necessário */
+    height: 400px; /* Altura da imagem ou contêiner */
+    text-align: center; /* Centraliza conteúdo de texto ou imagens */
+    margin-left: 25%;
+}
+
+.semidp {
+    width: auto;
+    height: 500px;
+    margin-left: 5%;
+}
